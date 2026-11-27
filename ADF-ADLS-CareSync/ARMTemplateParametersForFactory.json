@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ADF-ADLS-CareSync"
+		},
+		"LS_ADLS_properties_typeProperties_url": {
+			"value": "https://stgcaresyncraj.dfs.core.windows.net/"
+		},
+		"LS_AzureKeyVault_properties_typeProperties_baseUrl": {
+			"value": "https://caresync-keyvault-raj.vault.azure.net/"
+		},
+		"LS_AzureSqlDatabase_properties_typeProperties_server": {
+			"value": "caresync-sqlserver-raj.database.windows.net"
+		},
+		"LS_AzureSqlDatabase_properties_typeProperties_database": {
+			"value": "sql-db-caresync"
+		},
+		"LS_AzureSqlDatabase_properties_typeProperties_userName": {
+			"value": "raj"
+		},
+		"LS_Postgresql_properties_typeProperties_server": {
+			"value": "ep-wispy-tooth-bezttw8p-pooler.c-9.us-east-2.aws.neon.tech"
+		},
+		"LS_Postgresql_properties_typeProperties_database": {
+			"value": "neondb"
+		},
+		"LS_Postgresql_properties_typeProperties_username": {
+			"value": "neondb_owner"
+		}
+	}
+}
